@@ -1,13 +1,13 @@
 # 🩺 Diabetes Prediction System  
-### A Machine Learning Project by  
-**Rohan Sen • Tanmoy Sarkar • Sohom Chatterjee**
+### Machine Learning Project  
+#### By **Rohan Sen**, **Tanmoy Sarkar**, **Sohom Chatterjee**
 
 ---
 
 ## 📌 Overview
 
-This project is a **Diabetes Prediction System** built using **Machine Learning (Logistic Regression)** and deployed using a **Streamlit web application**.  
-It predicts whether a person is likely to have diabetes based on medical input features.
+This project is a **Diabetes Prediction System** built using **Machine Learning (Logistic Regression)** and deployed through a **Streamlit web application**.  
+The goal is to predict whether a person is likely to have diabetes based on key medical input features.
 
 The model is trained on the **Pima Indian Diabetes Dataset**.
 
@@ -15,32 +15,29 @@ The model is trained on the **Pima Indian Diabetes Dataset**.
 
 ## 🎯 Objective
 
-To build a fast, easy-to-use, and accurate **diabetes risk prediction tool** using machine learning techniques, assisting in early diagnosis and awareness.
+To create a fast, accurate, and user-friendly diabetes prediction tool that assists in early medical risk assessment and awareness.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 - **Python**
-- **Scikit-learn**
 - **Pandas, NumPy**
-- **Matplotlib / Seaborn** (Exploratory Data Analysis)
+- **Scikit-learn**
 - **StandardScaler** (Feature Scaling)
 - **Logistic Regression** (ML Model)
-- **Streamlit** (Frontend UI)
-- **Joblib** (Model Saving)
+- **Joblib** (Model Saving/Loading)
+- **Streamlit** (Web App Interface)
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```bash
-├── data/
-│   └── diabetes.csv
-├── model/
-│   └── diabetes_model.pkl
-├── app.py
-├── preprocess.py
-├── requirements.txt
 ├── README.md
-└
+├── app.py
+├── train_diabetes_model.py
+├── diabetes.csv
+├── diabetes_model.pkl
+├── scaler.pkl
+└── requirements.txt
